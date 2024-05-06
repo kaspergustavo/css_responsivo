@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adega Online</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+</head>
+<body>
+    <header>
+        <div class="container container-flex" id="menu-hamburguer">
+            <h1>ADEGA ONLINE</h1>
+            <div class="menu-hamburguer">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <nav>
+            <div class="container">
+                <ul>
+                    <li>
+                        <a href="#">Nossa História</a>
+                    </li>
+                    <li>
+                        <a href="#">Nossos Vinhos</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="nossa-historia">
+        <div class="container container-flex">
+            <img src="images/sobre.jpg" alt="barris de vinho">
+            <div>
+                <h2>Nossa História</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi recusandae saepe quod fugiat, nesciunt ea veniam illo cumque itaque eum magni quisquam placeat, dolores illum voluptatem provident obcaecati nulla eius!</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque incidunt inventore illo vero, deleniti vitae eos. Ducimus voluptatum nostrum nihil, sed praesentium aperiam tempora deleniti, cupiditate repellat laborum blanditiis officiis.</p>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <main>
+        <section>
+        <h2>Nossos Vinhos</h2>
+        <div class="lista">
+            <article class="catalogo-vinhos">
+                <ul class="container-flex">
+                <li>
+                    <img src="images/produto-vinho1.png" alt="">
+                    <h3>Lorem ipsum dolor</h3>                    
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <button type="button">Adicionar ao carrinho</button>
+                </li>
+                <li>
+                    <img src="images/produto-vinho1.png" alt="">
+                    <h3>Lorem ipsum dolor</h3>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <button type="button">Adicionar ao carrinho</button>
+                </li>
+                <li>
+                    <img src="images/produto-vinho1.png" alt="">
+                    <h3>Lorem ipsum dolor</h3>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <button type="button">Adicionar ao carrinho</button>
+                </li>
+                <li>
+                    <img src="images/produto-vinho1.png" alt="">
+                    <h3>Lorem ipsum dolor</h3>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <button type="button">Adicionar ao carrinho</button>
+                </li>
+            </ul>
+            </article>
+        </div>
+    </section>
+    </main>
+    </div>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+
+            $('.menu-hamburguer').click(function(){
+                $('nav').slideToggle();
+                })
+            })
+    </script>
+
+</body>
+</html>
